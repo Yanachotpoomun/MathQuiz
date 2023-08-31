@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    text-align: center;
+}
+fieldset, legend {
+    all: revert;
+    border-radius: 5px;
+}
+
+.bodyproposition {
+    display: flex;
+    justify-content: center;
+}
+
+.proposition {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.selected {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 836px) {
+    .proposition {
+        font-size: 2rem;
+    }
+
+    .selected {
+        font-size: 1rem;
+    }
+}
+
+body {
+	background: linear-gradient(-45deg, #ffffff, #6969692a, #333333, #838383);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
